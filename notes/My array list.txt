@@ -1,0 +1,74 @@
+github.com/ErSKS/Java
+
+java control structure
+i> if
+2> for loop
+3> while loop
+4> Do-while loop
+5> Switch case + Switch Range
+-----------------------------------------------------------------------
+int i=0;
+while(i<10){
+	sout(i);
+	i++;
+
+}
+
+or
+
+int i=1;
+do{
+	sout(i);
+	i++;	
+}
+while (i<10);
+-------------------------------------------------------------------------
+#print i of for loop outside of it
+
+
+String and for loop
+ string k="khwopa";
+ for(int i=1;i<k.length(); i++){
+
+ sout(k.charAt(i));
+ }
+
+-----------------------------------------------------------------------
+ int user=18;
+ switch(user){
+ case 18:
+ sout("you are 18");
+ break;
+ default:
+ sout("you are not 18");
+ }
+ ----------------------------------------------------------------------------        
+ Switch Range
+ case1:
+ case2:
+ case3:
+ sout("under 4");
+
+------------------------------------------------------------------------------
+ arr.length; >> property
+ string.length(); >>function
+---------------------------------------------------------------------------------
+Myarray List
+Arraylist al=new Arraylist();
+al.add("Khec");
+al.add("khce");
+al.add(7);
+al.add("3");
+al.remove("khec");
+
+Iterator it=al.iterator();
+while(it.hasNext()){
+	sout(it.next());
+}
+--------------------------------------------------------------------------------------
+ENHANCED FOR LOOP
+int a[]={1,2,3}
+for(int el:a){
+	sout(el);
+}
+----------------------------------------------------------------------------

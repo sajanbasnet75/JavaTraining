@@ -1,0 +1,48 @@
+USER INPUT
+1>import ->
+
+2> scanner object
+Scanner Object
+Scanner input =new Scanner(System.in);
+
+3> Define variable
+  int age;
+
+4>sout("enter your age");
+age=input.nextInt();//inteeger value
+//a=input.next();
+//a=input.nextDouble();//string
+//a=input.nextDouble();//double value
+//a =inpput.nextLine();//full line
+---------------------------------------------------------------------------------------
+
+Q> develop a program to read full name ,age,and bank balance from user.
+----------------------------------------------------------------------------------------
+
+Scanner in=new Scanner(System.in);
+String check="y";
+While(check.equalsIgnoreCase("y")){
+	//
+	//
+	sout("Do you want to continue?"\n\t);
+	check=input.next();
+
+}
+
+
+-----------------------------------------------------------------------------------
+
+Class
+Aclass declaration is syntatically similar to structure. It consists data(properties) as well as functions (methods). So, the class can be termed as a collection of data member with member functions.
+
+Object
+The decleration of the class does not create any object ,it is just the specification of what a class contains
+
+Encapsulation
+Binding of data and functions together in a single unit   
+
+Relation of Class,Object and memory 
+   After decleration of class,memory is not allocated for the data member.
+   The decleration of class develops a template but data member cant be manipulted unless an object of its type is created.
+
+    

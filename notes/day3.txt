@@ -1,0 +1,73 @@
+net beans code templete
+psvm =public static void main
+sout= System.Out.Println("")
+trycatch= try{...} catch{..}
+for= for loop
+while=while loop
+pst=PrintStackTrace
+im=import
+
+
+crtl space=code completation
+ctrl+/ = comment/uncomment
+f6 =run
+shift+f6 =run particular file
+crtl+shift+n  =new project
+ctrl+r =refract rename
+crtl+shift+i  =import required
+
+
+
+Arrays 
+Arrays in java are also objects which holds similar type of data 
+Arrays needs to be declared and then created
+
+Syntax 
+1> int a[]={1,2,3,4...}
+
+2> int[] a;
+a = new int[5];
+a[0]=5;
+a[1]=7;
+..
+//default value is 0
+
+3>int[] a={1,2,3}
+String[] std ={"ram","shyam","Hari"} 
+char[] a={'n','e','p','a','l'}
+
+4>int[] a =new int[7];
+a[0]=10;
+
+5>
+int a[]=new int[4];
+
+6> int a[],b,c;
+
+7> int a,b,c;
+a=new int[4];
+b=new int[3];
+c=new int[10];
+
+8>
+int a[][] ={{1,2}{2,3}}
+
+
+
+ARRAY LENGTH
+arr.length
+for(int i=0;i<a.length-1;i++){
+	
+}
+
+
+notes: TOOLS ->EDITOR->on save->java
+reformat all lines
+remove trailing whitespaces from all lines
+
+
+
+
+email of sir
+erskstha@gmail.com
+shrestha.shiva@ho tmail.com
