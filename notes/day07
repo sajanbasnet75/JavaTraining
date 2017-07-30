@@ -1,0 +1,23 @@
+string name;
+name=JoptionPane.showInputDialog("enter your name");
+JoptionPane.showMessageDialog(null,name);
+System.exit(0);
+
+JoptionPane.showMessageDialog(null,"Plane Hijacked!","Spy",JoptionPane.WARNING_MESSAGE);
+
+1> 0-JoptionPane.ERROR_MESSAGE     (x)
+2> 1-JoptionPane.INFORMATION_MESSAGE     (!)
+3> 2-JoptionPane.WARNING_MESSAGE     /!\
+4> 3-JoptionPane.QUESTION_MESSAGE     (?)
+-----------------------------------------------------------------------------------------
+
+
+TASKS
+
+1>>Generate fibonacci no.  less than or equal to user's input .
+
+2>>Display message using static as well as non-static method.
+
+3>>Convert obtained mark into respective grade [Continuous entry calculation/calculation+JOP]
+
+4>>Count consonant/vowel from the entered string sentence
