@@ -1,0 +1,91 @@
+JAVA string Operation
+
+String 
+-it is not a datatype
+-its a class
+
+Syntax
+1> String s ="Test";
+2> String s =new String("Test");
+3> String s ="new String();
+     s="Test";
+-----------------------------------------------------
+
+String Operation
+1>Cocatenation
+2>Comparision
+3>toUpperCase
+4>charAT(index)
+5>Substring
+6>Replace
+7>indexOf(char)/lastIndexOf(char)
+8>trim()
+--------------------------------------------------
+
+1>String Concatenation
+   String s1="Nepal";
+   String s2="Earthquake",s3="2072";
+   sout(s1+s2);
+   sout(s1.concat(s2));
+   sout(s1.oncat(s2.concat(s3)));
+
+   -----------------------------------------------------
+
+   2> String Comparission
+
+   String s1="Test";
+   String s2="test";
+     1> equals
+        s1.equals(s2); //returns false
+
+     2>equalsIgnoreCase
+        s1.equalsIgnoreCase(s2);//true
+
+        if(s1==s2){
+        ........
+         }   
+        
+------------------------------------------------------------
+
+3>toUpperCase/toLowerCase
+  String s="Test";
+  sout(s.toUpperCase());
+  sout(s.toLowerCase());
+--------------------------------------------------------------
+
+4> charAt(index)
+String np="Nepal";
+sout(np.charAt(i));
+
+  +Sentence case 
+    sout(StringUtils.capatalize(np.toLowerCase()));
+--------------------------------------------------------------------
+
+5> Substring
+   String crn="710336";
+   sout(crn.substring(0,2));//71
+   sout(crn.substring(3,4));//3
+   sout(crn.substring(4,6));//36    
+---------------------------------------------------------------------
+
+6>Replace
+    String crn="660335";
+   sout(crn.replace("66","batch 2066"));
+   sout(crn.replace("03","computer"));
+   -----------------------------------------------------------------
+
+ 7> indexOf(char),lastIndexOf(char)
+    String crn="test";
+    sout(s.indexOf('t'));
+    sout(s.lastIndexOf('t'));
+    ----------------------------------------------------------
+
+ 8>trim();
+ String="           Nep  al   ";
+ sout(s.trim());  
+------------------------------------------------------------------
+
+Task
+1>access each string operation using user choice and switch case
+2>use user input to perform various string operation
+   

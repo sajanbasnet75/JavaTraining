@@ -1,0 +1,13 @@
+Settle/Getter Methods
+Student(crn,name,email,gender,fee,scholarship);
+where,
+crn,name,email>>>> string
+gender >>char
+fee >double
+scholarship>>boolean
+
+Task
+Prime number checker
+Fibonacci number checker
+Binary 2 decimal converter
+Decimal to Binary converter

@@ -1,0 +1,55 @@
+String Tokenization
+
+String s="Nepal:Earthquake:2072";
+String Tokenizer st= new StringTokenizer(s,":",false/true);
+while(st.hasMoreTokens()){
+	
+	sout(st.nextElement());
+}
+
+output
+true                     FALSE
+nepal                     Nepal    
+:                         Earthquake 
+Earthquake                2072 
+:
+2072
+
+
+Default Delimiters
+w- space
+\t tab
+\n new line
+\r carrige Return
+--------------------------------------
+
+
+Task
+Tokenize following strings
+1> 12/30/2017
+2> 14:00:30
+3>Khwopa Engineering College
+4>int;String;float;boolean;double
+5>abcd abc abcd abcd
+6>Develop a dynamic tokenizer which takes two inputs:string and delimiter and tokenizes given string
+develop this program to interact with users continuously 
+7> Check the Entered String is palindrome or not
+
+
+8>use do while 
+1 2 3
+2 4 6
+3 6 9
+
+
+1 2
+2 3
+3 4
+4 5
+
+
+               1
+              232
+             34543
+            4567654
+           567898765  

@@ -9,6 +9,11 @@ JoptionPane.showMessageDialog(null,"Plane Hijacked!","Spy",JoptionPane.WARNING_M
 2> 1-JoptionPane.INFORMATION_MESSAGE     (!)
 3> 2-JoptionPane.WARNING_MESSAGE     /!\
 4> 3-JoptionPane.QUESTION_MESSAGE     (?)
+
+
+
+charAt(i) returns the character at index i.
+length() method gives the length of the String.
 -----------------------------------------------------------------------------------------
 
 
