@@ -1,0 +1,60 @@
+----------Java Constructor-------------
+it looks like method declaration except that it uses the name of class and have no return type
+eg:
+class Nepal{
+	int popn;
+	String capitalCity;
+
+	public Nepal(){
+
+	popn=288000;
+	CapitalCity="ktm";
+
+	}
+   +getters     
+
+}
+
+psvm
+Nepal np=new Nepal();
+sout(np.getpopn());
+sout(np.getCapitalCity());
+------------------------------------------------------------------------------------------------------------
+
+Multiple constructor
++constructor overloading
++parametrized constructors
+eg:
+Class Country{
+	int pop;
+	String CapitalCity;
+	public Country(){
+	pop=218000;
+	CapitalCity="ktm";
+	}
+public Country(int p ,String c){
+	pop=p;
+	CapitalCity=c;
+}
++getters
+}
+
+psvm
+Country np=new Country();
+sout(np.getpop()+","+np.getCapitalCity());
+Country cn=new Country(8000000,"Beijing");
+sout(cn.getpop()+","+cn.getCapitalCity());
+
+---------------------------------------------------------------------------------------------------------------
+
+Bunker Array
+contains 1 iff it contains prime number
+sout("{7,6,10,1} true:"+isBunker(new int[]{7,6,10,1}));
+sout("{3,1,1} true:"+isBunker(new int[]{3,1,1}));
+sout("{6,1} false:"+isBunker(new int[]{6,1}));
+///sout("{6,1} true:"+isBunker(new int[]{6,1}));
+sout("{} false:"+isBunker(new int[]{}));
+
+--------------------------------------------------------------------------
+Q> Develop a program to generate a TOH  (tower of hannoie)
+

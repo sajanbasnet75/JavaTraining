@@ -1,0 +1,68 @@
+Java Polymorphism
+   1 Constructor Overloading
+   2 Method overloading
+   3 Operator oberloading
+   4 Method overriding
+
+------------------------------------------
+operator overloading 
++ concatenates and + adds
+psvm
+int a =2;b=3;
+sout("sum="+(a+b));
+-----------------------------------------
+Method Overloading 
+class Area {
+	public double calcArea(int r){
+        return 3.14*r*r;
+	}
+	public double calcArea(int a ,int b){
+        return l*b;
+	}
+}
+psvm 
+Area a =new Area();
+sout("circle area is="+a.calcArea(5));
+sout("rectangle area is="+a.calcArea(10));
+
+--------------------------------------------------------------------------
+class Grandfatehr {
+	
+	void run(){
+	sout("Grandfather cannt run");
+	}
+}
+
+class Father extends Grandfatehr {
+	@override
+	void run(){
+	super.run();
+	sout("father can run");
+	}
+}
+
+
+class son extends Fatehr {
+	@override
+	void run(){
+	super.run();
+	sout("son can run");
+	}
+}
+
+psvm
+son s =new son();
+s.run();
+
+-----------------------------------------------------------------
+
+Random number generation
+
+Random r =new Random();
+sout(r.nextInt(2));
+sout(r.nextInt(7));
+sout(r.nextInt(10));
+sout(r.nextInt(100));
+sout(r.nextInt(1000));
+sout(r.nextInt(50000));
+sout(r.nextInt());
